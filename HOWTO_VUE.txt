@@ -1,0 +1,63 @@
+1.  install  vue 
+npm init vue@latest frontend -- --template vue
+
+2. Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+++++++++++++++++++++++++++++++++++++
+tailwind.config.js
+====================================
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+==========================================
+
+/src/style.css
+========================================
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+=====================================
+
+3. install apollo
+npm install --save graphql graphql-tag @apollo/client
+
+======== main.js ===========
+
+
+==================
+
+
+4. install apollo-option
+npm i @vue/apollo-option
+
+
+
+
+
+
+
+
+=================================
+
+
+========install apollo-composable =========
+npm install --save @vue/apollo-composable
+
+
+
+
+
+
+
+
+

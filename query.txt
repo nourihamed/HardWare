@@ -1,0 +1,68 @@
+#########get branch
+query{
+branchByCode(branchCode:1115){
+  branchName
+  branchCode
+  pesonalNumber
+}
+}
+
+
+######### create new branch
+mutation {
+  CreateNewBranch(branchCode:1216 , branchName:"مرکزی بناب" , branchDgree:"درجه 2" , branchPersonNo:8){
+  	newBranch {
+      branchCode
+      branchName
+      branchDgree
+      branchPersonNo
+    }
+  }
+}
+
+############ CREATE NEW USER
+mutation {
+  createUser(
+    username: "114490"
+    PersonalNo: "114490"
+    password: "114490"
+    
+
+  ) {
+    user {
+      id
+      username
+    }
+  }
+}
+#############
+
+mutation{
+	DeleteBranch(branchCode:1262){
+    delBranch {
+      branchCode
+    }
+  }
+}
+
+
+################################
+
+  
+  UpdateBranch(branchCode:1216 , branchName:"مرکزی بناب" , branchDgree:"درجه 2" , branchPersonNo:8){
+  	upBranch {
+      branchCode
+      branchName
+      branchDgree
+      branchPersonNo
+    }
+  }
+}
+
+
+
+
+
+
+
+
