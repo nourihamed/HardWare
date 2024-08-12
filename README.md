@@ -8,11 +8,11 @@
 
 -vue + vite version 5.3.1
 
-- Graphql Api
-
-- Apollo 
-
 -tailwindcss
 
 -flowbite
 
+
+- Graphql Api
+
+- Apollo 
