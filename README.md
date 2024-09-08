@@ -1,4 +1,4 @@
-# HardWare
+# Integrate python graphQL with vue using vue-apollo
 
 #This is a hardware web App property maintenance project.
 
